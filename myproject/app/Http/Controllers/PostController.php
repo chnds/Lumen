@@ -9,7 +9,7 @@ use GuzzleHttp\Client;
 require '../vendor/autoload.php';
 
 
-class PostController extends BaseController
+class PostController extends BaseController //teste
 {
     public function store(Request $request)
     {
