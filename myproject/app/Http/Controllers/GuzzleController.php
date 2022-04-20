@@ -8,7 +8,7 @@ use Laravel\Lumen\Routing\Controller as BaseController;
 class GuzzleController extends BaseController
 {
 
-    public function postRequest() //Teste requisição via POST
+    public function postRequest() //Teste requisição com JSON
     {
         $client = new \GuzzleHttp\Client(["base_uri" => "http://httpbin.org"]);
         $options = [
@@ -28,18 +28,5 @@ class GuzzleController extends BaseController
         $response = $request->getBody()->getContents();
         echo '<pre>';
         print_r($response);
-    }
-
-    public function TestCertificate() //Testar certificado
-    {
-        $client = new \GuzzleHttp\Client(["base_uri" => "http://httpbin.org"]);
-        $options = [
-            'json' => [
-                "fruit" => "apple"
-               ]
-           ]; 
-        $response = $client->post("/post", $options);
-        
-        echo $response->getBody();
     }
 }

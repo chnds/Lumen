@@ -11,18 +11,19 @@
 |
 */
 
-//Guzzle routes
+//Guzzle rotas
 
 $router->post('/guzle/post','GuzzleController@postRequest');
 $router->get('/guzzle/get','GuzzleController@getRequest');
 
-// Armazenamento e leitura de requisições.
+// POSTController.
 
 $router->post('store','PostController@store');
 $router->get('get','PostController@get');
 
 
-//Routas XML
+// XML
+$router->post('/solicitar', 'XmlController@store');
 
 $router->get("/lerxml", function(){
     return view("testes-ler-xml");
@@ -32,8 +33,7 @@ $router->get("/gerarxml", function(){
     return view("testes-gerar-xml");
  });
 
-$router->post('/solicitar', 'XmlController@store');
- 
+ //testes API REST
 $router->group(['prefix' => 'courses'], function ()  use($router){
     $router->get('/', 'CourseController@index');
     $router->get('/{course}', 'CourseController@show');
@@ -44,17 +44,6 @@ $router->group(['prefix' => 'courses'], function ()  use($router){
 
 
 
-//Routas NF-S
-
-/*  $router->post('/testar','GuzzleController@TestCertificate');
- $router->post('/consultar','GuzzleController@Consultar');
- $router->post('/cancelar','GuzzleController@Cancelar');
- $router->post('/finalizar','GuzzleController@Finalizar');
- $router->post('/criar','GuzzleController@Criar');
- $router->post('/vincular','GuzzleController@VincularProdutos');
- $router->post('/consultar','GuzzleController@ConsultarProdutoAquisicao');
- $router->post('/dados','GuzzleController@Dados');
- $router->post('/receber','GuzzleController@ReceberArquivoNFe'); */
 
 
 
