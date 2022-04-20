@@ -24,13 +24,15 @@ $router->get('get','PostController@get');
 
 //Routas XML
 
-$router->get("/xml/ler", function(){
-    return view("ler-xml");
+$router->get("/lerxml", function(){
+    return view("testes-ler-xml");
  });
 
-$router->get("/xml/gerar", function(){
-    return view("gerar-xml");
+$router->get("/gerarxml", function(){
+    return view("testes-gerar-xml");
  });
+
+$router->post('/solicitar', 'XmlController@store');
  
 $router->group(['prefix' => 'courses'], function ()  use($router){
     $router->get('/', 'CourseController@index');
@@ -42,19 +44,17 @@ $router->group(['prefix' => 'courses'], function ()  use($router){
 
 
 
+//Routas NF-S
 
-
- //Routas NF-S
-
-/*  $router->post('/testar','PostController@TestCertificate');
- $router->post('/consultar','PostController@Consultar');
- $router->post('/cancelar','PostController@Cancelar');
- $router->post('/finalizar','PostController@Finalizar');
- $router->post('/criar','PostController@Criar');
- $router->post('/vincular','PostController@VincularProdutos');
- $router->post('/consultar','PostController@ConsultarProdutoAquisicao');
- $router->post('/dados','PostController@Dados');
- $router->post('/receber','PostController@ReceberArquivoNFe'); */
+/*  $router->post('/testar','GuzzleController@TestCertificate');
+ $router->post('/consultar','GuzzleController@Consultar');
+ $router->post('/cancelar','GuzzleController@Cancelar');
+ $router->post('/finalizar','GuzzleController@Finalizar');
+ $router->post('/criar','GuzzleController@Criar');
+ $router->post('/vincular','GuzzleController@VincularProdutos');
+ $router->post('/consultar','GuzzleController@ConsultarProdutoAquisicao');
+ $router->post('/dados','GuzzleController@Dados');
+ $router->post('/receber','GuzzleController@ReceberArquivoNFe'); */
 
 
 

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<EnviarLoteRpsEnvio>
+ <LoteRps>
+ <NumeroLote>000</NumeroLote>
+ <Cnpj>00000000000000</Cnpj>
+ <InscricaoMunicipal>00000000</InscricaoMunicipal>
+ <QuantidadeRps>2</QuantidadeRps>
+ <ListaRps>
+ <Rps>
+ <InfRps>
+ <IdentificacaoRps>
+ <Numero>1</Numero>
+ <Serie>F</Serie>
+ <Tipo>1</Tipo>
+ </IdentificacaoRps>
+ 
+<DataEmissao>2010-12-21T00:00:00</DataEmissao>
+ <NaturezaOperacao>1</NaturezaOperacao>
+ 
+<RegimeEspecialTributacao>2</RegimeEspecialTributacao>
+ 
+<OptanteSimplesNacional>2</OptanteSimplesNacional>
+ 
+<IncentivadorCultural>2</IncentivadorCultural>
+ <Status>1</Status>
+ <Servico>
+ <Valores>
+ 
+<ValorServicos>1000</ValorServicos>
+ <ValorDeducoes>0</ValorDeducoes>
+ <ValorPis>0</ValorPis>
+ <ValorCofins>0</ValorCofins>
+ <ValorInss>0</ValorInss>
+ <ValorIr>0</ValorIr>
+ <ValorCsll>0</ValorCsll>
+ <IssRetido>2</IssRetido>
+ <ValorIss>50</ValorIss>
+ <ValorIssRetido>0</ValorIssRetido>
+ 
+<OutrasRetencoes>0</OutrasRetencoes>
+ <BaseCalculo>1000</BaseCalculo>
+ <Aliquota>0.05</Aliquota>
+ 
+<ValorLiquidoNfse>950</ValorLiquidoNfse>
+ 
+<DescontoIncondicionado>0</DescontoIncondicionado>
+ 
+<DescontoCondicionado>0</DescontoCondicionado>
+ </Valores>
+ 
+<ItemListaServico>801</ItemListaServico>
+ <CodigoCnae>0</CodigoCnae>
+ <Discriminacao> SERVICOS EXEMPLO - R$ 
+1000.00 \r\n REFERENTE AO VENCIMENTO: 12/2010</Discriminacao>
+ 
+<CodigoMunicipio>4106902</CodigoMunicipio>
+ </Servico>
+1
+ <Prestador>
+ <Cnpj>00000000000000</Cnpj>
+ 
+<InscricaoMunicipal>00000000</InscricaoMunicipal>
+ </Prestador>
+ <Tomador>
+ <IdentificacaoTomador>
+ <CpfCnpj>
+ <Cpf>00000000000</Cpf>
+ </CpfCnpj>
+ </IdentificacaoTomador>
+ <RazaoSocial>NOME DO 
+TOMADOR</RazaoSocial>
+ <Endereco>
+ <Endereco>RUA ENDERECO 
+TOMADOR</Endereco>
+ <Numero>000</Numero>
+ <Complemento>casa 2</Complemento>
+ <Bairro>BAIRRO ENDERECO 
+TOMADOR</Bairro>
+ 
+<CodigoMunicipio>4106902</CodigoMunicipio>
+ <Uf>PR</Uf>
+ <Cep>00000000</Cep>
+ </Endereco>
+ <Contato>
+ <Telefone>00000000000</Telefone>
+ <Email>
+emailTomador@provedor.com.br</Email>
+ </Contato>
+ </Tomador>
+ </InfRps>
+ </Rps>
+ <Rps>
+ <InfRps>
+ <IdentificacaoRps>
+ <Numero>2</Numero>
+ <Serie>F</Serie>
+ <Tipo>1</Tipo>
+ </IdentificacaoRps>
+ 
+<DataEmissao>2010-12-21T12:23:54</DataEmissao>
+ <NaturezaOperacao>1</NaturezaOperacao>
+ 
+<RegimeEspecialTributacao>2</RegimeEspecialTributacao>
+ 
+<OptanteSimplesNacional>2</OptanteSimplesNacional>
+ 
+<IncentivadorCultural>2</IncentivadorCultural>
+ <Status>1</Status>
+ <Servico>
+ <Valores>
+ 
+<ValorServicos>1000</ValorServicos>
+ <ValorDeducoes>0</ValorDeducoes>
+ <ValorPis>0</ValorPis>
+ <ValorCofins>0</ValorCofins>
+2
+ <ValorInss>0</ValorInss>
+ <ValorIr>0</ValorIr>
+ <ValorCsll>0</ValorCsll>
+ <IssRetido>2</IssRetido>
+ <ValorIss>50</ValorIss>
+ <ValorIssRetido>0</ValorIssRetido>
+ 
+<OutrasRetencoes>0</OutrasRetencoes>
+ <BaseCalculo>1000</BaseCalculo>
+ <Aliquota>0.05</Aliquota>
+ 
+<ValorLiquidoNfse>950</ValorLiquidoNfse>
+ 
+<DescontoIncondicionado>0</DescontoIncondicionado>
+ 
+<DescontoCondicionado>0</DescontoCondicionado>
+ </Valores>
+ 
+<ItemListaServico>801</ItemListaServico>
+ <CodigoCnae>0</CodigoCnae>
+ <Discriminacao> SERVICOS EXEMPLO - R$ 
+1000.00 \r\n REFERENTE AO VENCIMENTO: 12/2010</Discriminacao>
+ 
+<CodigoMunicipio>4106902</CodigoMunicipio>
+ </Servico>
+ <Prestador>
+ <Cnpj>00000000000000</Cnpj>
+ 
+<InscricaoMunicipal>00000000</InscricaoMunicipal>
+ </Prestador>
+ <Tomador>
+ <IdentificacaoTomador>
+ <CpfCnpj>
+ <Cpf>00000000000</Cpf>
+ </CpfCnpj>
+ </IdentificacaoTomador>
+ <RazaoSocial>NOME DO 
+TOMADOR</RazaoSocial>
+ <Endereco>
+ <Endereco>RUA ENDERECO 
+TOMADOR</Endereco>
+ <Numero>000</Numero>
+ <Complemento>
+sobreloja</Complemento>
+ <Bairro>BAIRRO ENDERECO 
+TOMADOR</Bairro>
+ 
+<CodigoMunicipio>4106902</CodigoMunicipio>
+ <Uf>PR</Uf>
+ <Cep>00000000</Cep>
+ </Endereco>
+ <Contato>
+ <Telefone>00000000000</Telefone>
+ <Email>
+emailTomador@provedor.com.br</Email>
+ </Contato>
+ </Tomador>
+3
+ </InfRps>
+ </Rps>
+ </ListaRps>
+ </LoteRps>
+</EnviarLoteRpsEnvio>

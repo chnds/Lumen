@@ -31,9 +31,9 @@ $rootNode->appendChild($userNode);
 $dom->appendChild($rootNode);
 
 //imprime XML
-$xml =  $dom->saveXML();
-echo $xml;
+ $xml =  $dom->saveXML();
+echo $xml;  
 
 //Salva o conteudo em um arquivo
-//$dom->save(__DIR__.'/arquivo.xml');
-?>
+/* $dom->save(__DIR__.'/arquivo.xml');
+ */?>
